@@ -331,3 +331,5 @@ ASALocalRun/
 
 # Custom ignored files
 api/src/dbConnection.json
+api/uploads/*
+!api/uploads/info.txt

@@ -8,8 +8,17 @@ module.exports = {
   },
 
   async create(request, response) {
-    return response.json({
-      ok: true,
+    const {author, place, description, hashtags} = request.body;
+    const {filename: image} = request.file;
+
+    const post = await Post.create({
+      author,
+      place,
+      description,
+      hashtags,
+      image,
     });
+
+    return response.json(post);
   },
 };
