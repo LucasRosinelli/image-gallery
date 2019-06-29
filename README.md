@@ -13,5 +13,6 @@
 ### Backend
 
 - [Express v4.17.1](https://expressjs.com/)
+- [mongoose v5.6.2](https://mongoosejs.com/)
 - [ESLint v6.0.1](https://eslint.org/) *development*
-- [Nodemon v1.19.1](https://nodemon.io/) *development*
+- [nodemon v1.19.1](https://nodemon.io/) *development*
