@@ -1,8 +1,24 @@
 const Post = require('../models/Post');
 
 module.exports = {
-  async index(request, response) {
-    const posts = await Post.find().sort('-createdAt');
+  async getAll(request, response) {
+    const posts = await Post.find().sort({createdAt: -1});
+
+    return response.json(posts);
+  },
+
+  async getById(request, response) {
+    const id = request.params.id;
+    const post = await Post.findById(id);
+
+    return response.json(post);
+  },
+
+  async getByAuthor(request, response) {
+    const author = request.params.author;
+    const posts = await Post.find({
+      author,
+    }).sort({createdAt: -1});
 
     return response.json(posts);
   },
