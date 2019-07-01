@@ -12,6 +12,7 @@
 
 ### Backend
 
+- [CORS v2.8.5](https://github.com/expressjs/cors)
 - [Express v4.17.1](https://expressjs.com/)
 - [mongoose v5.6.2](https://mongoosejs.com/)
 - [multer v1.4.1](https://github.com/expressjs/multer/)

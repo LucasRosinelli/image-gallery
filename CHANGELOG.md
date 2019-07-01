@@ -7,5 +7,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [0.1.0] - 2019-07-01
 ### Added
-- Libraries *Express*, *mongoose*, *multer* and *sharp*.
+- Libraries *CORS*, *Express*, *mongoose*, *multer* and *sharp*.
 - Libraries *ESLint* and *nodemon* exclusively for development purposes.
