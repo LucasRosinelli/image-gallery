@@ -50,6 +50,8 @@ module.exports = {
       generatedName,
     });
 
+    request.io.emit('post', post);
+
     return response.json(post);
   },
 };
