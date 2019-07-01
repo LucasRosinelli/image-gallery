@@ -1,6 +1,6 @@
 const fileSystem = require('fs');
-const sharp = require('sharp');
 const path = require('path');
+const sharp = require('sharp');
 const Post = require('../models/Post');
 
 module.exports = {
