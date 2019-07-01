@@ -1,3 +1,6 @@
+const fileSystem = require('fs');
+const sharp = require('sharp');
+const path = require('path');
 const Post = require('../models/Post');
 
 module.exports = {
@@ -27,12 +30,24 @@ module.exports = {
     const {author, place, description, hashtags} = request.body;
     const {filename: imageUrl} = request.file;
 
+    const [fileName] = imageUrl.split('.');
+    const generatedName = `${fileName}.jpg`;
+
+    await sharp(request.file.path)
+        .resize(500)
+        .jpeg({quality: 85})
+        .toFile(
+            path.resolve(request.file.destination, 'resized', generatedName),
+        );
+
+    fileSystem.unlinkSync(request.file.path);
+
     const post = await Post.create({
       author,
       place,
       description,
       hashtags,
-      imageUrl,
+      generatedName,
     });
 
     return response.json(post);
