@@ -9,3 +9,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Added
 - Libraries *CORS*, *Express*, *mongoose*, *multer*, *sharp* and *Socket.IO*.
 - Libraries *ESLint* and *nodemon* exclusively for development purposes.
+- **Post** *model*:
+  - *author*
+  - *place*
+  - *description*
+  - *hashtags*
+  - *imageUrl*
+  - *likes*
+  - *timestamps* (*createdAt* and *updatedAt*)
+- **Post** *controller*
+  - *getAll*
+  - *getById*
+  - *getByAuthor*
+  - *create*
+- **Post** *routes*
+  - GET */post*
+  - GET */post/{ID}*
+  - GET */post/byAuthor/{AUTHOR}*
+  - POST */post*
+- Static images acessible through */files/{FILENAME}* route
