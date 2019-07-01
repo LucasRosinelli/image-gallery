@@ -15,5 +15,6 @@
 - [Express v4.17.1](https://expressjs.com/)
 - [mongoose v5.6.2](https://mongoosejs.com/)
 - [multer v1.4.1](https://github.com/expressjs/multer/)
+- [sharp v0.22.1](https://sharp.pixelplumbing.com/en/stable/)
 - [ESLint v6.0.1](https://eslint.org/) *development*
 - [nodemon v1.19.1](https://nodemon.io/) *development*
