@@ -328,3 +328,8 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+# Custom ignored files
+api/src/dbConnection.json
+api/uploads/*
+!api/uploads/info.txt
