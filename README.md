@@ -7,7 +7,7 @@
 ## Stack
 
 - **Backend**: [Node v12.4.0](https://nodejs.org)
-- **Frontend web**: [ReactJS v16.8.6](https://reactjs.org)
+- **Frontend web**: [React v16.8.6](https://reactjs.org)
 
 ## External libraries
 
@@ -21,3 +21,7 @@
 - [Socket.IO v2.2.0](https://socket.io/)
 - [ESLint v6.0.1](https://eslint.org/) *development*
 - [nodemon v1.19.1](https://nodemon.io/) *development*
+
+### Frontend web
+
+- [React Router v5.0.1](https://reacttraining.com/react-router)
