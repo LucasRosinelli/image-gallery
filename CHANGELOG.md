@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Frontend Web with React
   - Library *React Router*.
   - Pages *Feed* and *NewPost*.
+  - Component *Header*.
 
 ## [0.1.0] - 2019-07-01
 ### Added
@@ -22,7 +23,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
     - *description*
     - *hashtags*
     - *imageUrl*
-   -  *likes*
+    - *likes*
     - *timestamps* (*createdAt* and *updatedAt*)
   - **Post** *controller*:
     - *getAll*
