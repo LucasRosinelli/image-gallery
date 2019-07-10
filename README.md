@@ -7,6 +7,7 @@
 ## Stack
 
 - **Backend**: [Node v12.4.0](https://nodejs.org)
+- **Frontend web**: [ReactJS v16.8.6](https://reactjs.org)
 
 ## External libraries
 

@@ -5,26 +5,31 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [0.2.0] - 2019-07-10
+### Added
+- Frontend Web with ReactJS
+
 ## [0.1.0] - 2019-07-01
 ### Added
-- Libraries *CORS*, *Express*, *mongoose*, *multer*, *sharp* and *Socket.IO*.
-- Libraries *ESLint* and *nodemon* exclusively for development purposes.
-- **Post** *model*:
-  - *author*
-  - *place*
-  - *description*
-  - *hashtags*
-  - *imageUrl*
-  - *likes*
-  - *timestamps* (*createdAt* and *updatedAt*)
-- **Post** *controller*
-  - *getAll*
-  - *getById*
-  - *getByAuthor*
-  - *create*
-- **Post** *routes*
-  - GET */post*
-  - GET */post/{ID}*
-  - GET */post/byAuthor/{AUTHOR}*
-  - POST */post*
-- Static images acessible through */files/{FILENAME}* route
+- REST API with NodeJS
+  - Libraries *CORS*, *Express*, *mongoose*, *multer*, *sharp* and *Socket.IO*.
+  - Libraries *ESLint* and *nodemon* exclusively for development purposes.
+  - **Post** *model*:
+    - *author*
+    - *place*
+    - *description*
+    - *hashtags*
+    - *imageUrl*
+   -  *likes*
+    - *timestamps* (*createdAt* and *updatedAt*)
+  - **Post** *controller*:
+    - *getAll*
+    - *getById*
+    - *getByAuthor*
+    - *create*
+  - **Post** *routes*:
+    - GET */post*
+    - GET */post/:id*
+    - GET */post/byAuthor/:author*
+    - POST */post*
+  - Static images acessible through */files/:filename* route
