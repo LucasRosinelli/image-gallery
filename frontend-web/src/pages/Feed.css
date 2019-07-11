@@ -1,0 +1,84 @@
+section#post-list {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+section#post-list article {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+}
+
+section#post-list article header {
+  padding: 16px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section#post-list article header .user-info {
+  display: flex;
+  flex-direction: column;
+  color: #262626;
+}
+
+section#post-list article header .user-info span.author {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  margin: 0px 0px 0px -5px;
+  padding: 0px 0px 0px 5px;
+}
+
+section#post-list article header .user-info span.place {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+section#post-list article > img {
+  width: 100%;
+}
+
+section#post-list article footer {
+  padding: 0px 16px;
+}
+
+section#post-list article footer .actions {
+  margin-top: 4px;
+}
+
+section#post-list article footer .actions img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+section#post-list article footer strong {
+  margin-bottom: 0px 0px 8px;
+}
+
+section#post-list article footer p {
+  font-size: 13px;
+  margin-top: 2px;
+  line-height: 18px;
+}
+
+section#post-list article footer p span.description {
+  color: #000;
+}
+
+section#post-list article footer p span.hashtags {
+  display: block;
+  color: #003569;
+}
+
+section#post-list article footer p time.timestamp {
+  display: block;
+  font-size: 10px;
+  color: #999;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
