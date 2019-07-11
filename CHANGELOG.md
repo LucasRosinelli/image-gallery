@@ -5,11 +5,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-## [0.2.0] - 2019-07-10
+## [0.2.0] - 2019-07-11
 ### Added
 - Frontend Web with React
-  - Library *React Router*.
-  - Pages *Feed* and *NewPost*.
+  - Libraries *axios* and *React Router*.
+  - Pages *Feed* and *New Post*.
   - Component *Header*.
 
 ## [0.1.0] - 2019-07-01

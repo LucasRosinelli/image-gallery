@@ -24,4 +24,5 @@
 
 ### Frontend web
 
+- [axios v0.19.0](https://github.com/axios/axios)
 - [React Router v5.0.1](https://reacttraining.com/react-router)
