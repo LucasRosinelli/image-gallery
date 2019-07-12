@@ -54,4 +54,17 @@ module.exports = {
 
     return response.json(post);
   },
+
+  async like(request, response) {
+    const id = request.params.id;
+    const post = await Post.findById(id);
+
+    if (post) {
+      post.likes += 1;
+
+      await post.save();
+    }
+
+    return response.json(post);
+  },
 };

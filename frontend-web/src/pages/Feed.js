@@ -17,6 +17,10 @@ class Feed extends Component {
     this.setState({ posts: response.data });
   }
 
+  likePost = (id) => {
+    api.post(`/post/${id}/like`);
+  }
+
   render() {
     return (
       <section id="post-list">
@@ -35,7 +39,9 @@ class Feed extends Component {
 
             <footer>
               <div className="actions">
-                <img src={like} alt="Like" />
+                <button type="button" onClick={() => this.likePost(post._id)}>
+                  <img src={like} alt="Like" />
+                </button>
               </div>
 
               <strong>{this.getLikesText(post.likes)}</strong>

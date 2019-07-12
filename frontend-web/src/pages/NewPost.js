@@ -12,19 +12,19 @@ class NewPost extends Component {
     hashtags: '',
   };
 
-  handleImageChange = evt => {
+  handleImageChange = (evt) => {
     this.setState({
       imageUrl: evt.target.files[0]
     });
   }
 
-  handleChange = evt => {
+  handleChange = (evt) => {
     this.setState({
       [evt.target.name]: evt.target.value
     });
   }
 
-  handleSubmit = async evt => {
+  handleSubmit = async (evt) => {
     evt.preventDefault();
 
     const data = new FormData();
