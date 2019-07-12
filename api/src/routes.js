@@ -10,5 +10,6 @@ routes.get('/post', PostController.getAll);
 routes.get('/post/:id', PostController.getById);
 routes.get('/post/byAuthor/:author', PostController.getByAuthor);
 routes.post('/post', upload.single('imageUrl'), PostController.create);
+routes.post('/post/:id/like', PostController.like);
 
 module.exports = routes;
