@@ -25,4 +25,5 @@
 ### Frontend web
 
 - [axios v0.19.0](https://github.com/axios/axios)
+- [Socket.IO-client v2.2.0](https://socket.io/)
 - [React Router v5.0.1](https://reacttraining.com/react-router)

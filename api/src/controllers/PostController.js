@@ -63,6 +63,8 @@ module.exports = {
       post.likes += 1;
 
       await post.save();
+
+      request.io.emit('like', post);
     }
 
     return response.json(post);

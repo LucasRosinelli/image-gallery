@@ -8,9 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [0.2.0] - 2019-07-11
 ### Added
 - Frontend Web with React
-  - Libraries *axios* and *React Router*.
+  - Libraries *axios*, *React Router* and *Socket.IO-client*.
   - Pages *Feed* and *New Post*.
   - Component *Header*.
+- REST API with NodeJS
+  - **Post** *controller*:
+    - *like*
+  - **Post** *routes*:
+    - POST */post/:id/like*
 
 ## [0.1.0] - 2019-07-01
 ### Added
