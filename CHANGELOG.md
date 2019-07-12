@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-## [0.2.0] - 2019-07-11
+## [0.2.0] - 2019-07-12
 ### Added
 - Frontend Web with React
   - Libraries *axios*, *React Router* and *Socket.IO-client*.
